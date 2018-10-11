@@ -1,5 +1,5 @@
-# ntsistemas
-scripts de demonstrações em p coGit e GitHub
+# ntsistema
+scripts de demonstraçõ com PHP/Git e GitHub
 #comandos do git em rede local
 # git init
 inicia o repositiorio do git
