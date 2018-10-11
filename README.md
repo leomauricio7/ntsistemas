@@ -102,5 +102,5 @@ server para gerar as chaves de acesso ssh
 # vincular Git no GitHub
  pegue as chaves ssh geradas pelo git, vá em config do github e na opção 
 ssh e crie uma nova chave ssh e cole no campo a chave gerada pelo git, 
-depois é so aslvar e desenvolver seu projeto.
+depois é so salvar e desenvolver seu projeto.
  
