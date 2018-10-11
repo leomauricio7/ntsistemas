@@ -99,6 +99,6 @@ branch especifico de seu projeto
 # trabalhando com GitHub
 # ssh-keygen
 server para gerar as chaves de acesso ssh
-# vincular char no GitHub
+# vincular Git no GitHub
  pegue as chaves ssh geradas pelo git, vá em config do github e na opção ssh e cri um anova chave ssh e cole no campo a chave gerada pelo git, deopis é so salavr e desenvolver seu projeto.
  
