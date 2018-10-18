@@ -1,0 +1,15 @@
+<div class="main">
+    <div class="row">
+        <div class="col-md-offset-4 col-md-4">
+            <form class="">
+                <label class="control-label">Nome</label>
+                <input type="text" ng-model="nome" placeholder="Nome" class="form-control"/>
+                <label class="control-label">Email</label>
+                <input type="text" ng-model="email" placeholder="Email" class="form-control"/>
+                <button class="btn btn-primary btn-block" ng-click="save()" ng-hide="verificaStatus()">Adicionar</button>
+                <button class="btn btn-warning btn-block" ng-click="edit()" ng-show="verificaStatus()">Atualizar</button>
+            </form>
+            {{ message }}
+        </div>
+    </div>
+</div>

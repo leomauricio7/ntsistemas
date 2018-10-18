@@ -1,0 +1,19 @@
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Crud com Angular 1-nodeJS-mongoDB</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="lib/angular.js"></script>
+  <script src="lib/angular-route.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/controllers/user/userController.js"></script>
+  <script src="js/controllers/user/novoUserController.js"></script>
+  <script src="js/routes/userRouter.js"></script>
+</head>
+<body ng-app="app">
+    <div ng-include="view/menu.html"></div>
+    <div ng-view></div>
+    <div ng-include="view/footer.html"></div>
+</body>
+</html>
